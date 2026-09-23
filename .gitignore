@@ -1,0 +1,24 @@
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python environments and generated files
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/**/*.py[cod]
+**/__pycache__/
+*.py[cod]
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Tooling, logs, and operating-system files
+.DS_Store
+Thumbs.db
+*.log
+scratch/
+.agent/
